@@ -7,7 +7,7 @@
  * @format: is a character string. The format string is composed
  *          of zero or more directives
  *
- * Return: Always 0
+ * Return: number of element
  */
 
 
@@ -28,7 +28,23 @@ type_specifier_t type_specifier[] = {
 
 while (*format != '\0')
 {
-if (*format == '%')
+if (*format == '\\')
+{
+format++;
+if (*format == 'n')
+{
+putchar('\n');
+}
+else if (*format == 't')
+{
+putchar('\t');
+} 
+else
+{
+putchar(*format);
+}
+}
+else if (*format == '%')
 {
 format++;
 char specifier = *format;
