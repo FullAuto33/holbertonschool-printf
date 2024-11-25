@@ -12,7 +12,15 @@
 
 int _printf(const char *format, ...)
 {
-  format formats[] = {
-    {
+
+va_list args;
+va_start(args,format);
   
+type_specifier_t type_specifier[] = {
+{'c', _print_char},
+{'s', _print_string},
+{'i', _print_int},
+{'d', _print_decimal},
+{'\0', NULL}
+};
 }
