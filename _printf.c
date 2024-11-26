@@ -90,39 +90,39 @@ type_specifier_t type_specifier[] = {
 {'d', _print_int}, {'\0', NULL} };
 
 va_start(args, format);
-	for (; *format != '\0'; format++)
-	{
-		if (*format == '\\' && *(++format))
-		  {
-		    _putchar(*format == 'n' ? '\n' : *format == 't' ? '\t' : *format);
-		    taille = taille + 1;
-		  }
-		else if (*format == '%')
-		{
-			format++;
-			specifier = *format, compteur  = 0, truespecifier = 0;
-			for (; type_specifier[compteur].specifier != '\0'; compteur++)
-			{
-				if (type_specifier[compteur].specifier == specifier)
-				{
-					type_specifier[compteur].print_func(args);
-					truespecifier = 1;
-					break;
-				}
-			}
-			if (truespecifier != 1)
-			{
-				_putchar('%');
-				_putchar(specifier);
-				taille  = taille + 2;
-			}
-		}
-		else
-		  {
-				_putchar(*format);
-				taille = taille + 1;
-		  }
-	}
-	va_end(args);
-	return (taille);
+for (; *format != '\0'; format++)
+{
+if (*format == '\\' && *(++format))
+{
+_putchar(*format == 'n' ? '\n' : *format == 't' ? '\t' : *format);
+taille = taille + 1;
+}
+else if (*format == '%')
+{
+format++;
+specifier = *format, compteur  = 0, truespecifier = 0;
+for (; type_specifier[compteur].specifier != '\0'; compteur++)
+{
+if (type_specifier[compteur].specifier == specifier)
+{
+type_specifier[compteur].print_func(args, &taille);
+truespecifier = 1;
+break;
+}
+}
+if (truespecifier != 1)
+{
+_putchar('%');
+_putchar(specifier);
+taille  = taille + 2;
+}
+}
+else
+{
+_putchar(*format);
+taille = taille + 1;
+}
+}
+va_end(args);
+return (taille);
 }

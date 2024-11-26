@@ -4,9 +4,9 @@
 
 int _printf(const char *format, ...);
 int _putchar(char c);
-void _print_int(va_list args);
-void _print_char(va_list args);
-void _print_string(va_list args);
+void _print_int(va_list args, int *taille);
+void _print_char(va_list args, int *taille);
+void _print_string(va_list args, int *taille);
 
 
 /**
@@ -18,7 +18,7 @@ void _print_string(va_list args);
 typedef struct type_specifier
 {
 char specifier;
-void (*print_func)(va_list args);
+  void (*print_func)(va_list args, int *taille);
 } type_specifier_t;
 
 #endif
