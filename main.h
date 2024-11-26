@@ -18,7 +18,7 @@ void _print_string(va_list args, int *taille);
 typedef struct type_specifier
 {
 char specifier;
-  void (*print_func)(va_list args, int *taille);
+void (*print_func)(va_list args, int *taille);
 } type_specifier_t;
 
 #endif
