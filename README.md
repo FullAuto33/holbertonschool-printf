@@ -44,7 +44,7 @@ Pour exécuter des tests, exécutez la commande suivante
 $ gcc -o my_printf test.c _printf.c _putchar.c  -I .
 $ ./my_printf
 ```
-
+Chaque spécifier a été testé individuellement, puis collectivement. Le compteur de caractères imprimés (pour le retour) a été testé de manière simultanée aux précédents.
 
 ## Screenshots
 
