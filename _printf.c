@@ -33,6 +33,20 @@ _putchar(str[i]);
 *taille = *taille + 1;
 }
 }
+
+/**
+ * _print_percent - prints a percent.
+ * @args: argument.
+ * @taille: count of printed characters.
+ * Return: nothing.
+ **/
+void _print_percent(va_list args, int *taille)
+{
+(void)args;
+_putchar('%');
+*taille = *taille + 1;
+}
+
 /**
  * _print_int- prints a int argument.
  * @args: argument.
@@ -78,7 +92,7 @@ char specifier;
 int compteur, truespecifier, taille = 0;
 va_list args;
 type_specifier_t type_specifier[] = {{'c', _print_char}, {'s', _print_string},
-{'i', _print_int}, {'d', _print_int}, {'\0', NULL} };
+{'i', _print_int}, {'d', _print_int}, {'%', _print_percent}, {'\0', NULL} };
 va_start(args, format);
 for (; *format != '\0'; format++)
 {

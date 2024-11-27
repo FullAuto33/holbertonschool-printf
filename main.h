@@ -6,6 +6,7 @@ int _printf(const char *format, ...);
 int _putchar(char c);
 void _print_int(va_list args, int *taille);
 void _print_char(va_list args, int *taille);
+void _print_percent(va_list args, int *taille);
 void _print_string(va_list args, int *taille);
 
 
