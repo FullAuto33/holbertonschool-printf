@@ -1,0 +1,62 @@
+ PRINTF(3)                 Manuel du programmeur Linux                 PRINTF(3)
+NAME :
+    _printf
+SYNOPSIS :
+    Prototype : int _printf(const char *format, ...)
+    Header :    #include <limits.h>
+                #include <stdio.h>
+                #include "main.h"
+                #include <stdarg.h>
+    Main.h :
+                int _printf(const char *format, ...);
+                int _putchar(char c);
+                void _print_int(va_list args, int *taille);
+                void _print_char(va_list args, int *taille);
+                void _print_percent(va_list args, int *taille);
+                void _print_string(va_list args, int *taille);
+                typedef struct type_specifier
+                {
+                char specifier;
+                void (*print_func)(va_list args, int *taille);
+                } type_specifier_t;
+DESCRIPTION :
+                La fonction permet d afficher des chaînes formatées sur la sortie standard (stdout) en fonction d une chaîne de format fournie.
+                La structure permet d afficher des chaînes de caractères, des entiers et des caractères seuls, utilisez respectivement %s, %i ou %d, et %c.
+                Les caractères d échappement possibles sont : \\ \n et \t.
+                Le pourcentage littéral %% est également pris en compte.
+RETURN VALUE :
+                La fonction retourne le nombre de caractères imprimés.
+EXEMPLES :
+            int main(void)
+            {
+            int len1;
+            // Imprime une valeur positive
+            len1 = _printf("Positive integer: %d\n", 12345);
+            _printf("_printf returned: %d\n", len1);
+            // Imprime une valeur négative
+            len1 = _printf("Negative integer: %i\n", -12345);
+            _printf("_printf returned: %i\n", len1);
+            // Imprime un caractère spécial
+            len1 = _printf("Character: %c\n", '!');
+            _printf("_printf returned: %d\n", len1);
+            // Imprime une chaîne de caractères simple
+            len1 = _printf("Simple string: %s\n", "Hello world !");
+            _printf("_printf returned: %d\n", len1);
+            return 0;
+            }
+            Résultats :
+            Positive integer: 12345
+            _printf returned: 24
+            Negative integer: -12345
+            _printf returned: 25
+            Character: !
+            _printf returned: 13
+            Simple string: Hello world !
+            _printf returned: 29
+Date :
+        27/11/2024
+Les auteurs :
+        
+@Djelloul Rouba
+       
+@Paul Lacroix
