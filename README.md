@@ -34,6 +34,8 @@ Pour installer les outils requis, exécutez les commandes suivantes dans votre t
 ```bash
 sudo apt update
 sudo apt install build-essential git
+
+
 root@eb8cd8b9f4c847379ef5148a3e4c4498-2377118072:/holbertonschool-printf# gcc -o my_printf test.c _printf.c _putchar.c  -I .
 root@eb8cd8b9f4c847379ef5148a3e4c4498-2377118072:/holbertonschool-printf# ./my_printf 
 Let's try to printf a simple sentence.
