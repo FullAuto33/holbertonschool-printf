@@ -1,8 +1,13 @@
- PRINTF(3)                 Manuel du programmeur Linux                 PRINTF(3)
-NAME :
-    _printf
-SYNOPSIS :
-    Prototype : int _printf(const char *format, ...)
+# PRINTF(3) - Manuel du programmeur Linux
+
+## NAME
+`_printf` - Une fonction personnalisée pour afficher des chaînes formatées.
+
+## SYNOPSIS
+### Prototype :
+```c
+int _printf(const char *format, ...);
+```
     Header :    #include <limits.h>
                 #include <stdio.h>
                 #include "main.h"
