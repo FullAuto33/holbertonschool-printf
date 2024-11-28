@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-Lis moi
-=======
-
 # Écrivez votre propre fonction printf.
 
 ## Description :
@@ -75,4 +71,3 @@ paul.lacroix@holbertonstudents.com
 
 - [@Rouba Djelloul](https://www.github.com/FullAuto33)
 - [@Lacroix Paul](https://www.github.com/lacroixpaul)
->>>>>>> djelloul
