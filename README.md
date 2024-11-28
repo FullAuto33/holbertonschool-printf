@@ -47,13 +47,9 @@ Chaque spécifier a été testé individuellement, puis collectivement. Le compt
 
 ## Screenshots
 Capture d'écran du fichier Test page 1 :
-![Test File Page 1](https://www.hebergeur-image.com/upload/82.126.150.249-67482b33eba13.png)
-Capture d'écran du fichier Test page 2 :
-![Test File Page 2](https://www.hebergeur-image.com/upload/82.126.150.249-67482ab5c23d9.png)
-Résultat reçu du programme :
-![Sortie programme recu](https://www.hebergeur-image.com/upload/82.126.150.249-67482c7175f97.png)
+![Test File Page 1](https://www.hebergeur-image.com/upload/82.126.150.249-67483e1ea0de7.png)
 Résultat du programme attendu :
-![Sortie programme attendu](https://www.hebergeur-image.com/upload/82.126.150.249-67482eac8dd25.png)
+![Sortie programme attendu](https://www.hebergeur-image.com/upload/82.126.150.249-67483d735b071.png)
 
 ## MAN page
 Lien du fichier MAN page :
