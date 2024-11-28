@@ -47,7 +47,14 @@ $ ./my_printf
 Chaque spécifier a été testé individuellement, puis collectivement. Le compteur de caractères imprimés (pour le retour) a été testé de manière simultanée aux précédents.
 
 ## Screenshots
-
+Capture d'écran du fichier Test page 1 :
+![Test File Page 1](https://www.hebergeur-image.com/upload/82.126.150.249-67482b33eba13.png)
+Capture d'écran du fichier Test page 2 :
+![Test File Page 2](https://www.hebergeur-image.com/upload/82.126.150.249-67482ab5c23d9.png)
+Résultat reçu du programme :
+![Sortie programme recu](https://www.hebergeur-image.com/upload/82.126.150.249-67482c7175f97.png)
+Résultat du programme attendu :
+[Sortie programme attendu](https://www.hebergeur-image.com/upload/82.126.150.249-67482cdc212c3.png)
 
 
 
