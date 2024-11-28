@@ -60,7 +60,9 @@ Résultat du programme attendu :
 
 ## Support
 
-For support, email djelloul.rouba@holbertonstudents.com
+For support, email : 
+djelloul.rouba@holbertonstudents.com
+paul.lacroix@holbertonstudents.com
 
 
 ## Auteurs
