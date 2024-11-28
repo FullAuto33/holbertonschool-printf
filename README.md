@@ -54,7 +54,7 @@ Capture d'écran du fichier Test page 2 :
 Résultat reçu du programme :
 ![Sortie programme recu](https://www.hebergeur-image.com/upload/82.126.150.249-67482c7175f97.png)
 Résultat du programme attendu :
-[Sortie programme attendu](https://www.hebergeur-image.com/upload/82.126.150.249-67482cdc212c3.png)
+![Sortie programme attendu](https://www.hebergeur-image.com/upload/82.126.150.249-67482cdc212c3.png)
 
 
 
