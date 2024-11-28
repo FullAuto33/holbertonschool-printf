@@ -59,7 +59,7 @@ https://github.com/FullAuto33/holbertonschool-printf/blob/main/_printf.man
 ## Support
 
 For support, email : 
-djelloul.rouba@holbertonstudents.com
+djelloul.rouba@holbertonstudents.com \
 paul.lacroix@holbertonstudents.com
 
 
