@@ -56,7 +56,10 @@ Résultat reçu du programme :
 Résultat du programme attendu :
 ![Sortie programme attendu](https://www.hebergeur-image.com/upload/82.126.150.249-67482eac8dd25.png)
 
+## MAN page
+Lien du fichier MAN page :
 
+https://github.com/FullAuto33/holbertonschool-printf/blob/djelloul/_printf.man
 
 ## Support
 
