@@ -1,4 +1,4 @@
-PRINTF(3)                 Manuel du programmeur Linux                 PRINTF(3)
+ PRINTF(3)                 Manuel du programmeur Linux                 PRINTF(3)
 NAME :
     _printf
 SYNOPSIS :
