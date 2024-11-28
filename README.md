@@ -34,33 +34,6 @@ Pour installer les outils requis, exécutez les commandes suivantes dans votre t
 ```bash
 sudo apt update
 sudo apt install build-essential git
-
-
-root@eb8cd8b9f4c847379ef5148a3e4c4498-2377118072:/holbertonschool-printf# gcc -o my_printf test.c _printf.c _putchar.c  -I .
-root@eb8cd8b9f4c847379ef5148a3e4c4498-2377118072:/holbertonschool-printf# ./my_printf 
-Let's try to printf a simple sentence.
-Let's try to printf a simple sentence.
-Test % simple
-Length:[39, 39]
-Length:[39, 39]
-Negative:[-762534]
-Negative:[-762534]
-Unsigned:[%u]
-Unsigned:[2147484671]
-Unsigned octal:[%o]
-Unsigned octal:[20000001777]
-Unsigned hexadecimal:[%x, %X]
-Unsigned hexadecimal:[800003ff, 800003FF]
-Character:[H]
-Character:[H]
-String:[I am a string !]
-String:[I am a string !]
-Address:[%p]
-Address:[0x7ffe637541f0]
-Percent:[%%]
-Percent:[%]
-Len:[13]
-Len:[12]
 ```
     
 ## Tests
@@ -81,7 +54,7 @@ Capture d'écran du fichier Test page 2 :
 Résultat reçu du programme :
 ![Sortie programme recu](https://www.hebergeur-image.com/upload/82.126.150.249-67482c7175f97.png)
 Résultat du programme attendu :
-![Sortie programme attendu](https://www.hebergeur-image.com/upload/82.126.150.249-67482cdc212c3.png)
+![Sortie programme attendu](https://www.hebergeur-image.com/upload/82.126.150.249-67482eac8dd25.png)
 
 
 
