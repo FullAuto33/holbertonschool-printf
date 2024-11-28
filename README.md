@@ -58,7 +58,7 @@ Résultat du programme attendu :
 ## MAN page
 Lien du fichier MAN page :
 
-https://github.com/FullAuto33/holbertonschool-printf/blob/djelloul/_printf.man
+https://github.com/FullAuto33/holbertonschool-printf/blob/main/_printf.man
 
 ## Support
 
