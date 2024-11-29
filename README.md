@@ -51,6 +51,10 @@ Capture d'écran du fichier Test :
 Résultat du programme attendu :
 ![Sortie programme attendu](https://www.hebergeur-image.com/upload/82.126.150.249-67483d735b071.png)
 
+## FLOWCHART 
+![FlowChart](https://www.hebergeur-image.com/upload/37.65.5.12-6749a417501b9.jpg)
+
+
 ## MAN page
 Lien du fichier MAN page :
 
